@@ -72,7 +72,9 @@ Then, the data will be analysed through the `dailyReturn()` function which calcu
 
 The other financial indicators such as the covariance matrix, CVaR, portfolio variance, etc. have also been calculated in R by using base R functions and will be explained in the next section. 
 
-##Analysis
+## Analysis
+For easy access to invest_portfolio.html (coded in R), click on this link: https://kellyngsf.github.io/invest_portfolio/invest_portfolio.html.
+
 After obtaining the data and organising it into a data set, the data will then be analysed through the objective function, constraint function, as well as a gradient objective function that is needed to run the `nplotr()` function in R. 
 
 The objective function is defined as follows: 
