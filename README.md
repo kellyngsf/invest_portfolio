@@ -23,7 +23,7 @@ There are three constraints for this project. The first constraint is a budget c
 ```
 The next constraint will be to make sure that every weight is non-negative, in other words, short-selling of the stocks will not be considered for this project. This is because short-selling indicates the investor is betting on the price of the stock to fall, and when it does fall, the investor makes a profit. However, this project will be solely focused on investment only in stocks that are expected to increase in value. This constraint can be shown as follows, 
 ```math
-w_i  \geq 0 for  all  i
+w_i  \geq 0 for <br /> all <br /> i
 ```
 Although the constraints are linear since the objective function is nonlinear, the entire project combining the nonlinear objective function and linear constraints makes this project a nonlinear programming problem. 
 
